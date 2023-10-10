@@ -32,6 +32,11 @@ A definition of Software Engineering, proposed by Fritz Bauer is as follows:<br>
 IEEE defines Software Engineering as:<br>
 "Software Engineering: (1) The application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software; that is, the application of engineering to software. (2)The study of approaches as in (1)."
 Software engineers who are involved in this process should not only be worried about the technical issues but should also be aware about the ethical issues involved.<br>
+
+
+<!--Image-->
+
+
 Quality: Quality management is base for software engineering. Software quality can be judged using its six attributes which are as follows:<br>
 a.	Functionality: If refers to the expected behaviour of the software as per the requirements of the customer.<br>
 b.	Reliability: It is a probability of failure-free operations of the software over a specific period of time.<br>
@@ -64,6 +69,10 @@ iv.	Product-line Software: It focuses on mass consumer market or specific market
 Software process is core of software engineering. Software project specifies what is to be developed as per the user's requirements as shown in figure 1.2. Software process is the set of related tasks/activities carried out in order to produce the required software (for completing the project) in time.<br>
 Each task performs a well-defined function and produces concrete output. The process becomes very important because it doesn't just aim to deliver a desired software but tries to produce a high-quality software within less time and cost. Software process is not static or rigid but it is dynamic or adaptable in nature. Each of the activities and tasks resides within a framework or model, which specifies the relation between process and these activities and also the relation among the activities itself.<br>
 <br>
+
+<!--Image-->
+
+
 5.1 The Process Framework<br>
 The process framework provides a support structure for entire software engineering in the form of set of activities. These activities are applicable to all software projects irrespective of its size. Complexity and type. It mainly consists of framework activities and umbrella activities. Every framework activity includes set of actions performed for completion of the activity. Each action in turn is composed of set of tasks which completed the defined action.<br>
 The basic activities included in generic software process framework are
@@ -110,6 +119,257 @@ IV.	Techniques and activities used for project tracking and control activities.<
 V.	Stress given on details of process description.<br>
 VI.	Level of liberty given to the software team.<br>
 VII.	Details about the roles played by individuals in a development team.<br>
+
+6. Generic Process Model
+Depending on the nature and objectives of the project, different methodologies or processes are used for development of the project which are called as process model. A generic process framework or model mainly consists of two types of activities.
+I.	Fundamental activities: These are set of framework activities applicable regardless of the project type. It consists of communication, planning, modeling, construction and deployment as mentioned above.
+II.	Umbrella activities: These are the activities which are applied throughout the software development project. These activities help development team to manage and control progress, risk, change and quality of the project.
+Generic framework activities are used by all software models but they may have different order and emphasis given to each activity. 
+Process flow specifies the way to carry these activities with respect to time and order. There are four different types of process flow,
+i.	Linear Process Flow: As the name suggests, each of the above-mentioned activities are carried out one after the other starting with communication till deployment as shown in figure 1.3.
+
+<!--Image-->
+
+
+ii.	Iterative Process Flow: In this, one or more than activities are repeated before going further as shown in figure 1.4
+
+<!--Image-->
+
+
+<!--PAGE 10!-->
+
+7. Prescriptive Process Models
+Prescriptive process models provide orderly approach to software engineering. It specifies step by step sequence of activities addressing "how to do" the software development. All activities involved are dependent on one or other activity.
+Examples of Prescriptive Models
+7.1 The Waterfall Model
+It is also referred as "Traditional" or "Typical or Classic life cycle model and is the oldest model for software engineering. This model was proposed by Winston Royce in 1970. Figure 1.7 shows different phases and activities performed in each phase of waterfall model.
+
+
+<!--Image-->
+
+
+Waterfall model follows the generic software framework activities in sequential manner. The developer completes each phase before moving to the next. As the diagram resembles cascading waterfalls this model is called as "Waterfall model"
+
+Phases of Waterfall Model
+
+1.	Communication or Requirements analysis phase: 
+Understanding user requirements and documenting it is the basic aim of this phase. 
+2.	Planning or Scheduling Phase: 
+This phase aims to schedule the various activities of software development. It identifies the risk involved and estimates the cost of development. It also helps in tracking the software progress. 
+3.	Modeling or Design Phase:
+The main goal of this phase is to design the overall system with detailed specification.
+4.	Construction or Coding and Testing Phase: 
+As the name suggests this phase is responsible for implementation of the system design. Various components of the system are coded and tested for ensuring accuracy.
+5.	Deployment or Operations and Maintenance Phase:
+This phase aims for maintenance and successful operation of the developed software at user's end for final acceptance.
+
+Features of Waterfall Model
+i. The entire development process is divided into number of phases.
+ii. It uses a linear process flow.
+iii. Each phase performs a specific task or activity.
+iv. Each phase generates certain outcome called as 'work product". 
+v. Outcome of previous stage acts as input for the next stage.
+vi. Sequence of phases is strictly followed and at any stage of the project it is not possible to go back to previous stage (hence the name waterfall)
+
+Advantages of Waterfall Model
+1.	It is very simple to understand and use.
+2.	As each stage is responsible for specific task, it helps in good scheduling and cost estimation.
+3.	Efficient use of resources because of good scheduling. 
+4.	Work products help in judging the progress of the development process.
+
+Limitations of Waterfall Model
+1.	Software projects rarely follow sequential process.
+2.	It is not easy for user to explicitly specify all requirements at the beginning of the project which the model expects.
+3.	It is unable to deal with the uncertainty which exists at the beginning of the project. 
+4.	When project enters in later stages, ie., coding and testing, it becomes difficult to accommodate changes.
+5.	If a problem is identified in later stage then rectifying the problem leads to increase in cost and time for development
+
+7.2 V-Model
+
+This model is also referred as Verification and Validation Model. Basic phases performed for software development in V model are same as waterfall model. This model is considered as an extension to the Waterfall model. In this model, actions to be carried out for ensuring the quality development are described with each fundamental phase of waterfall model. These actions involve various tests to validate the product at each stage as shown in figure 1.8. It is therefore considered as variation in the representation of waterfall model itself.
+
+
+<!--Image-->
+
+
+Verification Phases in V-Model
+i.	Requirements analysis: Expectations and needs of user from the software are collected through communication with client/user.
+
+ii.	 Architecture design: Architecture of the entire system is designed. This design specifies various components/ modules, their dependencies on each other, brief functionalities of each component, technology details and so on.
+
+iii.	Component design: The entire system is broken down into smaller modules and detailed functionality of every component is specified with its expected input and output.
+
+iv.	 Coding: Correct and optimized code is written for implementing each component and its functionality. Suitable programming language is used for the same.
+
+Validation Phases In V-Model 
+1.	Unit testing: Unit tests are designed and performed to ensure error free code at a program module level. It checks the correct execution of each functionality implemented 
+
+2.	Integration Testing: Integration testing ensures the error free and smooth working of various components/modules together.
+3.	System Testing: System testing ensures that the system as a whole is working correctly and providing the expected functionalities.
+4.	Acceptance Testing: The system is tested in user's environment before the final acceptance.
+
+
+Advantages of V Model
+1.	Testing is planned well before coding.
+2.	 Higher chances of success over waterfall model. 
+3.	Efficient for small projects when requirements are clearly specified.
+
+Disadvantages of V-Model
+
+1.	Not flexible.
+2.	Does not work efficiently with large and complex projects. 
+3.	Difficult to adapt changing requirements.
+
+7.3 Incremental Process Model
+An incremental model tries to deliver series of increments with upgraded functionalities. Instead of developing an entire system with all its functionalities, incremental model tries to split functionalities into different pieces and develops each piece as an increment. It uses all phases of waterfall model iteratively for developing the increment.
+This model does not freeze the requirements at the beginning of the project like waterfall model. Incremental process model aims early delivery of software prototype/version with limited important functionalities. This increment/version is given to user and based on the feedback received further up gradation takes place. Thus, the final system is evolved through various increments.
+
+Features of Incremental Model
+i.	It uses combination of linear and parallel process flows.
+ii.	Full development task is broken into smaller portions.
+iii.	Increment development process starts when preliminary version of requirements is prepared. First increment developed is a core product.
+iv.	The increment developed is then delivered to the customer at the end of each iteration. Each iteration performs fundamental activities in linear flow as shown in figure1.3. The feedback received is used to refine and expand the functionalities in the successive versions as shown in figure 1.9.
+v.	Each version delivered, add additional functionalities to the previous release until the final product is developed and deployed.
+vi.	This model is suitable for large and complex systems.
+
+<!--Image-->
+
+
+Advantages of incremental Model
+1.	Cost of adapting changes during the development process is reduced as it reduces the amount of analysis and documentation to be redone.
+2.	It is easier to get feedback from the customer on the development work completed by the team.
+3.	Early delivery of useful software to the customer.
+
+Limitations of Incremental Model
+1.	It is not cost effective to produce documentation for every version developed. 
+2.	Development of new versions leads to messy code and structural degradation of the system.
+
+7.4	Evolutionary Process Model 
+It is mainly designed to accommodate changes and updates in business and product requirements with changing market scenario. These models are iterative in nature.
+
+Advantages of Evolutionary Model 
+i.	Supports fast development.
+ii.	Better handling of risks involved. 
+iii.	Reduces the development cost.
+iv.	As user is involved in every stage of development reduces chances of error penetration.
+
+Limitations of Evolutionary Model
+i.	Project planning is difficult because of indefinite number of iterations.
+ii.	Cannot achieve maximum speed.
+iii.	Focuses more on flexibility and extensibility rather than quality.
+
+Two Common Models
+
+1. Prototyping
+Main objective of prototype-based development model is to overcome the limitation of the waterfall model to freeze the requirements before design and coding. It can be used with any of the process models or as a stand-alone process model. The prototype paradigm is shown in figure 1.10.
+
+
+<!--Image-->
+
+
+Features of Prototyping
+
+i.	Based on the preliminary requirements gathered through communication, a working prototype for a system is quickly designed and developed.
+ii.	This working prototype is then given to the clients and end users for use with an understanding that needs are likely to change. This prototype acts as a tool for refining the requirements further.
+iii.	As per the user's feedback prototype is updated to adapt suggested changes.
+iv.	This cycle of user demonstration and update of prototype is repeated till the user suggests changes in the system.
+
+v.	Once the users fix the requirements, the final requirements specification for the system is produced and the final quality system is developed. 
+
+Advantages of Prototyping
+
+i.	Effective method for software development as user gets an idea of the system and its features at early stage of the development.
+
+ii.	Helps in reducing various types of risks associated with the project as it provides effective tool for communication with stakeholders.
+
+iii.	Reduces cost of adapting changes.
+
+Limitation of Prototyping
+
+i.	Overall system quality may not be considered due to quick design and development of the project.
+
+ii.	Inappropriate algorithms and programming languages might be used during fast development.
+
+iii.	Throw away prototypes may increase the cost of development.
+
+
+Spiral Model
+
+It was proposed by Barry Boehm in 1986. It also considered as a risk-driven model. It combines the sequential approach of waterfall model with cyclic nature of prototyping. It follows evolutionary approach and each cycle consists of all the activities from the generic process framework model starting from communication to deployment. Each cycle involves risk assessment (i.e. whether to proceed or not decisions are taken after each complete spiral) and the software is developed in series of releases.
+
+The first cycle develops product specification which is core of the development process. Subsequent cycles develop a prototype and progress towards the actual, quality software. Figure 1.11, shows a typical spiral model.
+Each cycle in the spiral contains following activities:
+i.	Objective settings: Objectives are set for each cycle and various methods for achieving those are identified.
+
+ii.	Risk assessment and reduction: In this phase, risks and constraints involved with various alternatives is assessed.
+
+iii.	Development and validation: Actual development and validation task is performed here that is a prototype or simulation of the system is developed.
+
+iv.	Planning: The project progress is assessed and it is decided whether to go for next cycle of the spiral. Based on the result of assessment next cycle is planned.
+
+
+<!--Image-->
+
+
+Advantages of Spiral Model
+i.	Considers the entire software life cycle.
+ii.	Suitable for large and complex software.
+iii.	Better understanding and handling of risk at each evolutionary level by both developer and customer.
+
+Limitations of Spiral Model
+i.	It requires expertise in managing and assessing risk.
+ii.	Convincing customer for such evolutionary approach is difficult.
+
+7.5 Concurrent Model
+This model is used by the software development team to represent elements of any model which are iterative and parallel. It is also referred as concurrent engineering. It helps in identifying correct state of the current project.
+All software engineering activities are present at same time (concurrently) but in different states. As the activity progress, it changes its state as shown in figure 1.12. Activity can be in any one of the following states:
+
+i.	Inactive: Not yet started.
+ii.	Under development: Indicates partial progress.
+iii.	Under review: Assessment of the implementation done till now. 
+iv.	Base-lined: Compared with the expected requirements. jv.
+v.	Done: Completed as per the specification.
+vi.	Awaiting changes: Waiting for feedback and suggestions.
+vii.	Under revision: Going through suggested updates.
+
+
+<!--Image-->
+
+
+Advantages of Concurrent Model
+
+i.	Fast development.
+ii.	It is applicable to all types of software development processes.
+iii.	It is easy to understand.
+iv.	Gives immediate feedback.
+
+Limitations of Concurrent Model
+
+i.	Needs better communication among team members.
+ii.	Remembering states of activities is essential.
+
+7.6 The Unified Process
+The unified process tries to extract best of all traditional models. The process flow in unified process is incremental, iterative and highly focused on customer involvement. It is mainly designed for object-oriented development using UML(Unified Modeling Language).
+The UP is divided into cycles and each cycle consists of four consecutive phases. Thus each phase may have multiple iterations and each cycle generates a well-defined outcome. Phases of Unified Process are as follows:
+i.	Inception Phase: Inception phase mainly focuses on objectives, business requirements and scope of a project. It involves communication and planning activities. Fundamental requirements are described using use cases. Plan is prepared for incremental and iterative development of a project. It defines a schedule by identifying resources required and key risk factors involved.
+ii.	Elaboration Phase: At the end of this phase, most of the requirements of the system are identified. It involves communication and modeling activities. This phase refines the preliminary requirements specified using use cases in inception phase and specifies five different views of the software using use case model, analysis model, design model, implementation model and deployment model. Critical decision regarding the technology to be used is taken. This phase also helps in doing the cost analysis regarding the project and modification of the plan developed earlier.
+iii.	Construction Phase: This phase results in the actual software increment. Different software components are integrated together and software increment is developed and tested (using unit testing, integration testing and acceptance testing). Analysis and design. models developed in elaboration are thus completed here.
+iv.	Transition Phase: The outcome of this phase is product release. Here the developed software is transferred for beta testing to client's environment. All supporting documents like user manuals, installation procedures etc. are also delivered to the client together with the software. When feedback received from user is used in identifying the defects in the system and initiating necessary updates, it is referred to as Production phase. Thus, production phase coincides with the deployment activities.
+
+
+<!--Image-->
+<!--Image-->
+
+
+
+
+Summary
+
+Software is playing a crucial role in today's world. Software has evolved and changed its nature from domain specific problem solving to service providing industry in itself. The prominent application areas for software are Web Apps, Mobile applications, Cloud computing and Product line software. Software engineering focuses on problem understanding.) Planning solution for solving the problem, executing the plan and testing the outcome generated against the specification for correctness and quality. Software engineering uses process, methods and tools for getting the desired outcome.
+
+A generic process model for software engineering consists of set of framework activities, umbrella activities, actions and work tasks. Different process models are defined based on different types of process flow supported by them.
+
+Waterfall and V-models are the oldest models which are sequential in nature. These models use linear flow. Incremental process models deliver early, working version of the software and are iterative in nature. Evolutionary process models are flexible to adapt changes and suggest incremental and iterative nature. Prototyping and spiral models are evolutionary process models Concurrent process models are iterative as well as parallel in nature. The unified process is a use case driven, architecture centric, iterative and incremental in nature.
 
     </p>
 </body>
