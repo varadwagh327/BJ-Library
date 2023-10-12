@@ -4,18 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Class</title>
+    <style>
+        header{
+            margin-top: 30px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            padding:5px
+        }
+        main{
+            border: #333;
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            text-shadow: #1a1919; 
+            text-align:center;
+        }
+        body{
+            background-color: #333;
+        }
+        .bcs{
+            margin-right: 50px;
+        }
+        .bca{
+            margin-left: 50px;
+        }
+    </style>
 </head>
 <body>
     <!--this is homepage here we ask for class-->
-    <h2 id="title">
-       - Select your Class -
-    </h2>
-    <form>
-        <div class="but1"> 
-            <a href="/website/BCS.html" id="bcs"><input type="button" value="BCS" ></a>
-            <a href="/website/BCA.html" id="bca"><input type="button" value="BCA"></a>
-        </div>
-    </form>
+    <header>    
+        <h2 id="title">
+            - Select your Class -
+        </h2>
+    </header>
+    <main>
+        <form>
+            <div class="but1"> 
+                <a href="/website/BCS.html" class="bcs"><input type="button" value="BCS" ></a>
+                <a href="/website/BCA.html" class="bca"><input type="button" value="BCA"></a>
+            </div>
+        </form>
+    </main>
 
 
 </body>
