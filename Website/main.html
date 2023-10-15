@@ -6,29 +6,33 @@
     <title>Class</title>
     <style>
         header{
-            margin-top: 30px;
-            background-color: black;
+            padding-top: 20px;
             text-align: center;
-            color: white;
-            padding:5px
+            font-size: larger;
+
         }
         main{
-            border: #333;
-            max-width: 900px;
-            margin: 200px auto;
-            background-color: #333;
-            text-shadow: #1a1919; 
-            text-align:center;
+            text-align: center;
+            padding: 100px;
         }
-        body{
-            background-color: #333;
+        .Y{
+            color: #20bf6b !important;
+            text-transform: uppercase;
+            background: #ffffff;
+            padding: 20px;
+            border: 4px solid #20bf6b !important;
+            border-radius: 6px;
+            display: inline-block;
+            transition: all 0.3s ease 0s;
+            margin:20px
         }
-        .bcs{
-            margin-right: 50px;
+        .Y:hover{
+            color: #494949 !important;
+            border-radius: 50px;
+            border-color: #494949 !important;
+            transition: all 0.3s ease 0s;
         }
-        .bca{
-            margin-left: 50px;
-        }
+
     </style>
 </head>
 <body>
@@ -40,10 +44,8 @@
     </header>
     <main>
         <form>
-            <div class="but1"> 
-                <a href="/website/BCS.html" ><input type="button" value="BCS" class="bcs"></a>
-                <a href="/website/BCA.html" ><input type="button" value="BCA" class="bca"></a>
-            </div>
+            <a href="/website/BCS.html" ><input type="button" value="BCS" class="Y"></a><br>
+            <a href="/website/BCA.html" ><input type="button" value="BCA" class="Y"></a>
         </form>
     </main>
 
