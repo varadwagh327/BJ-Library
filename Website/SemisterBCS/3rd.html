@@ -4,41 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3rd Semister</title>
+    <style>
+        header{
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+        main{
+            margin-left: 5px;
+            margin-right: 5px;
+            width:fit-content;
+            text-align:start;
+            padding-left:40%;
+
+        }
+        .s{
+            color: #1b38dd !important;
+            text-transform: uppercase;
+            background: #ffffff;
+            padding: 5px;
+            border: 4px solid #20bf6b !important;
+            border-radius: 6px;
+            transition: all 0.3s ease 0s;
+            margin: 5px;
+            height: 50px;
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight:bold;
+
+        }
+        .s:hover{
+            color: #494949 !important;
+            border-radius: 50px;
+            border-color: #494949 !important;
+            transition: all 0.3s ease 0s;
+        }
+    </style>
 </head>
 <body>
     <!--select your subject 3rd sem-->
-    <h2>
-        - Select Your Subject -
-    </h2>
-    <form>
-        <a href="/website/SubBCS/SY/sem3/ds1.html">
-            <input type="button"value="Data Structure and Algorithm I">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/SY/sem3/softeng.html">
-            <input type="button"value="Software Engineering">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/SY/sem3/digitalcomm.html">
-            <input type="button"value="Digital Communication and Engineering">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/SY/sem3/microcon.html">
-            <input type="button"value="Microcontroller architecture and programming">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/SY/sem3/grouptheory.html">
-            <input type="button"value="Groups and Coding Theory">
-        </a>
-        <br>
-        <br>
-        <a href="/website/SubBCS/SY/sem3/numtech.html">
-            <input type="button"value="Numeric Techniques">
-        </a>
-    </form>
+    <header>
+        <h2>
+            - Select Your Subject -
+        </h2>
+    </header>
+    <main>
+        <form>
+            <div class="d1">
+                <a href="/website/SubBCS/SY/sem3/ds1.html">
+                    <input type="button"value="Data Structure  &#x00A;and Algorithm I" class="s">
+                </a>
+                <br>
+                <a href="/website/SubBCS/SY/sem3/softeng.html">
+                    <input type="button"value="Software Engineering" class="s">
+                </a>
+                <br>
+            </div>
+            <div class="d2">
+                <a href="/website/SubBCS/SY/sem3/digitalcomm.html">
+                    <input type="button"value="Digital Communication  &#x00A;and Engineering" class="s">
+                </a>
+                <br>
+                <a href="/website/SubBCS/SY/sem3/microcon.html">
+                    <input type="button"value="Microcontroller architecture  &#x00A;and programming" class="s">
+                </a>
+                <br>
+            </div>
+            <div class="d3">
+                <a href="/website/SubBCS/SY/sem3/grouptheory.html">
+                    <input type="button"value="Groups and &#x00A;Coding Theory" class="s">
+                </a>
+                <br>
+                <a href="/website/SubBCS/SY/sem3/numtech.html">
+                    <input type="button"value="Numeric Techniques" class="s">
+                </a>
+            </div>
+        </form>
+    </main>
 </body>
 </html>
