@@ -4,21 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SY BCA</title>
+    <style>
+        header{
+            text-align: center;
+            font-size: larger;
+            padding:20px;
+        }
+        main{
+            text-align: center;
+            padding:100px;
+            background: linear-gradient(#FDFCFB,#E2D1C3);
+
+        }
+        .Y{
+            color: #20bf6b !important;
+            text-transform: lowercase;
+            background: #ffffff;
+            padding: 20px;
+            border: 4px solid#20bf6b !important;
+            border-radius: 6px;
+            display: inline-block;
+            transition: all 0.3s ease 0s;
+            margin: 20px;
+        }
+        .Y:hover{
+            color: #344aca !important;
+            border-color:#344aca !important;
+            border-radius: 50px;
+            transition: all 0.3s ease 0s;
+
+
+        }
+    </style>
 </head>
 <body>
     <!--SYBCA page ask for semister-->
-    <h2>
-        - Select Your Semister -
-    </h2>
-    <form>
-        <a href="/Website/SemisterBCA/3rd.html">
-            <input type="button"value="3rd Sem">
-        </a>
-        <br>
-        <br>
-        <a href="/Website/SemisterBCA/4th.html">
-            <input type="button"value="4th Sem">
-        </a>
-    </form>
+    <header>
+        <h2>
+            - Select the Semester -
+        </h2>
+    </header>
+    <main>
+        <form>
+            <a href="/Website/SemisterBCA/3rd.html">
+                <input type="button"value="3rd Sem" class="Y">
+            </a>
+            <br>
+            <a href="/Website/SemisterBCA/4th.html">
+                <input type="button"value="4th Sem" class="Y">
+            </a>
+        </form>
+    </main>
 </body>
 </html>
